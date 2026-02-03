@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 Ambassador Pod Program - Complete Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #FFC000, #6600FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            line-height: 1.2;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+        h1.gradient-text {
+            font-size: 2.5rem !important;
+        }
+        @media (min-width: 768px) {
+            h1.gradient-text {
+                font-size: 3.5rem !important;
+            }
+        }
+        @media (min-width: 1024px) {
+            h1.gradient-text {
+                font-size: 4rem !important;
+            }
+        }
+        .pod-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .pod-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(102, 0, 255, 0.3);
+        }
+        .assistant-badge {
+            transition: transform 0.3s ease;
+        }
+        .assistant-badge:hover {
+            transform: scale(1.1);
+        }
+        .scroll-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #FFC000;
+            color: #000066;
+            padding: 0.75rem 1rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            display: none;
+            z-index: 1000;
+        }
+        .scroll-to-top:hover {
+            background-color: #6600FF;
+            color: #F4F4F4;
+            transform: translateY(-3px);
+        }
+        .flow-arrow {
+            width: 4px;
+            height: 60px;
+            background: linear-gradient(180deg, #6600FF, #FFC000);
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            .flow-arrow {
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#000066] text-[#F4F4F4]">
+
+    <div class="container mx-auto p-4 md:p-8">
+        
+        <!-- HERO SECTION -->
+        <header class="text-center my-8 md:my-12">
+            <h1 class="text-4xl md:text-6xl font-black gradient-text tracking-tight">2026 Ambassador Pod Program</h1>
+            <p class="mt-6 text-xl md:text-3xl text-[#F4F4F4] max-w-5xl mx-auto leading-relaxed font-bold text-center">
+                The Complete Ecosystem
+            </p>
+            <p class="mt-4 text-lg md:text-xl text-[#33CC33] max-w-4xl mx-auto text-center">
+                From Request Intake → Discovery → Build → Scale 🚀
+            </p>
+            <div class="mt-8 flex flex-col md:flex-row gap-4 justify-center items-center flex-wrap">
+                <div class="bg-[#F4F4F4] text-[#000066] px-6 py-3 rounded-lg font-bold">
+                    📥 23 AI Assistants
+                </div>
+                <div class="bg-[#F4F4F4] text-[#000066] px-6 py-3 rounded-lg font-bold">
+                    🪣 5 Specialized Pods
+                </div>
+                <div class="bg-[#F4F4F4] text-[#000066] px-6 py-3 rounded-lg font-bold">
+                    ⏱️ 4-Week Sprint
+                </div>
+                <div class="bg-[#F4F4F4] text-[#000066] px-6 py-3 rounded-lg font-bold">
+                    🎯 Target Success Rate: 90%+
+                </div>
+            </div>
+        </header>
+
+        <main class="space-y-16">
+
+            <!-- PHASE 1: ENTRY POINT -->
+            <section class="bg-[#F4F4F4] rounded-xl shadow-lg p-6 md:p-10 text-[#000066]">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#6600FF] text-center mb-6">📥 Phase 1: Entry Point - Request Intake</h2>
+                <p class="text-center text-lg max-w-3xl mx-auto mb-8">
+                    Every AI journey starts here - business units identify the RIGHT problem before engaging ambassadors.
+                </p>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Problem Diagnostic -->
+                    <div class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] shadow-lg">
+                        <div class="text-5xl mb-4 text-center">🔍</div>
+                        <h3 class="text-2xl font-bold text-[#FFC000] text-center mb-3">Problem Diagnostic & Pain-Killer</h3>
+                        <p class="text-sm text-center mb-4 italic">Self-Service Pre-Work (Optional)</p>
+                        <ul class="text-sm space-y-2">
+                            <li>• Identify 1-10 problems</li>
+                            <li>• Workflow analysis (time cost)</li>
+                            <li>• Impact-Effort Matrix</li>
+                            <li>• Recommends highest priority</li>
+                            <li>• Generates pre-filled summary</li>
+                        </ul>
+                        <div class="mt-4 bg-[#E5E7EB] text-[#6600FF] rounded-lg p-3 text-center font-bold text-sm border-2 border-[#6600FF]">
+                            🔨 Coming Soon
+                        </div>
+                    </div>
+
+                    <!-- Jules Intake -->
+                    <div class="bg-[#E5E7EB] rounded-xl p-6 text-[#000066] shadow-lg">
+                        <div class="text-5xl mb-4 text-center">📥</div>
+                        <h3 class="text-2xl font-bold text-[#6600FF] text-center mb-3">Jules Support Request Intake</h3>
+                        <p class="text-sm text-center mb-4 italic">Official Request Submission</p>
+                        <ul class="text-sm space-y-2">
+                            <li>• Multi-problem prioritization</li>
+                            <li>• Impact-Effort Matrix scoring</li>
+                            <li>• TACT team requirements</li>
+                            <li>• Training completion check (80%)</li>
+                            <li>• Pre-filled routing brief</li>
+                        </ul>
+                        <div class="mt-4 bg-[#6600FF] text-[#F4F4F4] rounded-lg p-3 text-center font-bold text-sm">
+                            ✅ Production Ready
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 text-center">
+                    <div class="bg-[#000066] text-[#F4F4F4] rounded-lg p-4 inline-block">
+                        <p class="text-lg font-bold">📧 Output: Request emails to Ambassador Team</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="flow-arrow"></div>
+
+            <!-- PHASE 2: SE POD TRAFFIC CONTROL -->
+            <section class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl shadow-2xl p-8 md:p-10 text-[#F4F4F4]">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#FFC000] text-center mb-6">🎯 Phase 2: SE Pod - Traffic Control Center</h2>
+                <p class="text-center text-lg max-w-3xl mx-auto mb-8">
+                    Strategic Excellence Pod evaluates complexity and routes to the right team.
+                </p>
+
+                <div class="bg-[#F4F4F4] text-[#000066] rounded-xl p-6 mb-8">
+                    <h3 class="text-2xl font-bold text-[#6600FF] text-center mb-4">🔍 SE Pod Discovery Pro Assistant</h3>
+                    <div class="grid md:grid-cols-3 gap-4 text-sm">
+                        <div class="bg-[#E5E7EB] rounded-lg p-4">
+                            <p class="font-bold text-[#6600FF] mb-2">📧 Email #1</p>
+                            <p>TACT Team Assembly Requirements</p>
+                        </div>
+                        <div class="bg-[#E5E7EB] rounded-lg p-4">
+                            <p class="font-bold text-[#6600FF] mb-2">📧 Email #2</p>
+                            <p>Week 1 & 2 calendar invites, Week 4 & 8 reserved on ambassador calendar</p>
+                        </div>
+                        <div class="bg-[#E5E7EB] rounded-lg p-4">
+                            <p class="font-bold text-[#6600FF] mb-2">📧 Email #3</p>
+                            <p>Week 2 Check-In (75% CM completion + Data Ready)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mb-8">
+                    <h3 class="text-2xl font-bold text-[#FFC000] mb-4">Routing Decision Logic</h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-[#33CC33] rounded-xl p-6 text-[#000066]">
+                            <p class="font-bold text-xl mb-2">&lt;10 Interactions</p>
+                            <p class="text-lg">→ TA Pod</p>
+                            <p class="text-sm mt-2">Fundamental (L1) +<br>Simple Use Cases (L2, if TB is N/A)</p>
+                        </div>
+                        <div class="bg-[#FFC000] rounded-xl p-6 text-[#000066]">
+                            <p class="font-bold text-xl mb-2">10-20 Interactions</p>
+                            <p class="text-lg">→ TB Pod</p>
+                            <p class="text-sm mt-2">Simple to Medium<br>use cases (L2)</p>
+                        </div>
+                        <div class="bg-[#F4F4F4] rounded-xl p-6 text-[#000066]">
+                            <p class="font-bold text-xl mb-2">20+ Interactions</p>
+                            <p class="text-lg">→ Brenda (L3)</p>
+                            <p class="text-sm mt-2">Complex Integration<br>Projects</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-[#000066] text-[#F4F4F4] rounded-lg p-6 text-center">
+                    <p class="font-bold text-xl">📋 Output: Routing Brief with Change Readiness Assessment (ADKAR Framework)</p>
+                </div>
+            </section>
+
+            <div class="flow-arrow"></div>
+
+            <!-- PHASE 3: THE 5 PODS -->
+            <section class="bg-[#F4F4F4] rounded-xl shadow-lg p-6 md:p-10 text-[#000066]">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#6600FF] text-center mb-6">🪣 Phase 3: The 5 Specialized Pods</h2>
+                <p class="text-center text-lg max-w-3xl mx-auto mb-8">
+                    Divide and conquer - each pod owns specific deliverables with clear accountability.
+                </p>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 item-stretch">
+                    <!-- SE POD -->
+                    <div class="pod-card bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] h-full">
+                        <div class="text-4xl mb-3 text-center">🎯</div>
+                        <h3 class="text-xl font-bold text-[#FFC000] text-center mb-2">SE Pod</h3>
+                        <p class="text-sm text-center mb-4 italic">Strategic Excellence</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Pod Mission:</p>
+                            <p class="text-xs">Discovery meetings, traffic direction, stakeholder management</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">Discovery meetings, routing decisions, strategic correspondence</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Assistant:</p>
+                            <p class="text-xs">SE Pod Discovery Pro</p>
+                        </div>
+                    </div>
+
+                    <!-- CC POD -->
+                    <div class="pod-card bg-gradient-to-br from-[#FFC000] to-[#CC9900] rounded-xl p-6 text-[#000066]">
+                        <div class="text-4xl mb-3 text-center">📝</div>
+                        <h3 class="text-xl font-bold text-[#6600FF] text-center mb-2">CC Pod</h3>
+                        <p class="text-sm text-center mb-4 italic">Content & Community</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Pod Mission:</p>
+                            <p class="text-xs">Keep community engaged through consistent content</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">3 SharePoint posts, 4 Jules-It-Monday challenges</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Assistants:</p>
+                            <p class="text-xs">Jules-It-Monday Generator, Brenda Content Partner</p>
+                        </div>
+                    </div>
+
+                    <!-- TA POD -->
+                    <div class="pod-card bg-gradient-to-br from-[#33CC33] to-[#229922] rounded-xl p-6 text-[#F4F4F4]">
+                        <div class="text-4xl mb-3 text-center">🎓</div>
+                        <h3 class="text-xl font-bold text-[#6600FF] text-center mb-2">TA Pod</h3>
+                        <p class="text-sm text-center mb-4 italic">Training Delivery A</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Pod Mission:</p>
+                            <p class="text-xs">Deliver foundational AI training</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">Business unit workshops, L1 fundamentals<br>(max 2 events/month)</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Assistants:</p>
+                            <p class="text-xs">Presentation Doctor, PPT Speechwriter, Meeting Summary & Evaluation</p>
+                        </div>
+                    </div>
+
+                    <!-- TB POD -->
+                    <div class="pod-card bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] h-full">
+                        <div class="text-4xl mb-3 text-center">🚀</div>
+                        <h3 class="text-xl font-bold text-[#FFC000] text-center mb-2">TB Pod</h3>
+                        <p class="text-sm text-center mb-4 italic">Training Delivery B</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Pod Mission:</p>
+                            <p class="text-xs">Scale community learning and use cases</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">L2 use case workshops, community training<br>(max 2 events/month)</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Assistants:</p>
+                            <p class="text-xs">Presentation Doctor, PPT Speechwriter, Meeting Summary & Evaluation</p>
+                        </div>
+                    </div>
+
+                    <!-- OQ POD -->
+                    <div class="pod-card bg-gradient-to-br from-[#FFC000] to-[#CC9900] rounded-xl p-6 text-[#000066]">
+                        <div class="text-4xl mb-3 text-center">⚙️</div>
+                        <h3 class="text-xl font-bold text-[#6600FF] text-center mb-2">OQ Pod</h3>
+                        <p class="text-sm text-center mb-4 italic">Operations & Quality</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Pod Mission:</p>
+                            <p class="text-xs">Ensure program quality and operational excellence</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">Testing, tracking, documentation, success stories</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Assistant:</p>
+                            <p class="text-xs">Meeting Summary & Evaluation (primary owner), BugBridge</p>
+                        </div>
+                    </div>
+
+                    <!-- BRENDA L3 -->
+                    <div class="pod-card bg-gradient-to-br from-[#33CC33] to-[#229922] rounded-xl p-6 text-[#F4F4F4]">
+                        <div class="text-4xl mb-3 text-center">👑</div>
+                        <h3 class="text-xl font-bold text-[#6600FF] text-center mb-2">Brenda (L3)</h3>
+                        <p class="text-sm text-center mb-4 italic">Complex Integration Projects</p>
+                        <div class="bg-[#F4F4F4] text-[#000066] rounded-lg p-4 space-y-2">
+                            <p class="text-xs font-bold">🎯 Mission:</p>
+                            <p class="text-xs">Handle complex projects that can't be delegated yet</p>
+                            <p class="text-xs font-bold mt-2">📊 Monthly Deliverables:</p>
+                            <p class="text-xs">AI Mastery Academy Training, Ambassador Meetings</p>
+                            <p class="text-xs font-bold mt-2">🤖 Key Tools:</p>
+                            <p class="text-xs">APEX Trinity, Workflow Inspector, Brenda's Clone 2.0, Training Note Taker</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="flow-arrow"></div>
+
+            <!-- PHASE 4: 4-WEEK SPRINT TIMELINE -->
+            <section class="bg-[#E5E7EB] rounded-xl shadow-lg p-6 md:p-10 text-[#000066]">
+                <h2 class="text-3xl md:text-4xl font-bold text-[#6600FF] text-center mb-6">⏱️ Phase 4: The 4-Week Sprint Timeline</h2>
+                <p class="text-center text-lg max-w-3xl mx-auto mb-8">
+                    From discovery to results in 4 weeks - with sustained follow-up at Week 8.
+                </p>
+
+                <div class="grid md:grid-cols-4 gap-6">
+                    <!-- Week 1 -->
+                    <div class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] shadow-lg">
+                        <div class="text-center mb-4">
+                            <div class="text-4xl mb-2">🔍</div>
+                            <h3 class="text-2xl font-bold text-[#FFC000]">Week 1</h3>
+                            <p class="text-sm italic">Discovery</p>
+                            <div class="bg-[#FFC000] text-[#000066] rounded-full px-3 py-1 text-xs font-bold mt-2 inline-block">1 HOUR</div>
+                        </div>
+                        <ul class="text-sm space-y-2">
+                            <li>• Deep-dive conversation</li>
+                            <li>• ADKAR change readiness</li>
+                            <li>• Success metrics defined</li>
+                            <li>• CM & data readiness assignment given</li>
+                        </ul>
+                        <div class="mt-4 bg-[#F4F4F4] text-[#6600FF] rounded-lg p-2 text-xs text-center font-bold">
+                            Homework: 75% CM completion
+                        </div>
+                    </div>
+
+                    <!-- Week 2 -->
+                    <div class="bg-gradient-to-br from-[#FFC000] to-[#CC9900] rounded-xl p-6 text-[#000066] shadow-lg">
+                        <div class="text-center mb-4">
+                            <div class="text-4xl mb-2">🔨</div>
+                            <h3 class="text-2xl font-bold text-[#6600FF]">Week 2</h3>
+                            <p class="text-sm italic">Build</p>
+                            <div class="bg-[#6600FF] text-[#F4F4F4] rounded-full px-3 py-1 text-xs font-bold mt-2 inline-block">1.5 HOURS</div>
+                        </div>
+                        <ul class="text-sm space-y-2">
+                            <li>• Readiness gate (2 days before: CM + Data)</li>
+                            <li>• Super user drives</li>
+                            <li>• We guide together</li>
+                            <li>• Functional assistant created</li>
+                        </ul>
+                        <div class="mt-4 bg-[#F4F4F4] text-[#6600FF] rounded-lg p-2 text-xs text-center font-bold">
+                            Output: Working AI solution
+                        </div>
+                    </div>
+
+                    <!-- Week 3 -->
+                    <div class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] shadow-lg">
+                        <div class="text-center mb-4">
+                            <div class="text-4xl mb-2">🧪</div>
+                            <h3 class="text-2xl font-bold text-[#FFC000]">Week 3</h3>
+                            <p class="text-sm italic">Test & Refine</p>
+                            <div class="bg-[#FFC000] text-[#000066] rounded-full px-3 py-1 text-xs font-bold mt-2 inline-block">0 HOURS</div>
+                        </div>
+                        <ul class="text-sm space-y-2">
+                            <li>• Independent testing</li>
+                            <li>• Real-world validation</li>
+                            <li>• Fine-tune prompts</li>
+                            <li>• Collect feedback</li>
+                        </ul>
+                        <div class="mt-4 bg-[#F4F4F4] text-[#6600FF] rounded-lg p-2 text-xs text-center font-bold">
+                            Business unit owns this week
+                        </div>
+                    </div>
+
+                    <!-- Week 4 -->
+                    <div class="bg-gradient-to-br from-[#33CC33] to-[#229922] rounded-xl p-6 text-[#F4F4F4] shadow-lg">
+                        <div class="text-center mb-4">
+                            <div class="text-4xl mb-2">📊</div>
+                            <h3 class="text-2xl font-bold text-[#6600FF]">Week 4</h3>
+                            <p class="text-sm italic">Measure</p>
+                            <div class="bg-[#FFC000] text-[#000066] rounded-full px-3 py-1 text-xs font-bold mt-2 inline-block">1 HOUR</div>
+                        </div>
+                        <ul class="text-sm space-y-2">
+                            <li>• Results measurement</li>
+                            <li>• ROI validation</li>
+                            <li>• Identify issues</li>
+                            <li>• Celebrate milestone!</li>
+                        </ul>
+                        <div class="mt-4 bg-[#F4F4F4] text-[#6600FF] rounded-lg p-2 text-xs text-center font-bold">
+                            Prove value together
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Week 8 & Success & Scaling Split -->
+                <div class="mt-8 grid md:grid-cols-2 gap-6">
+                    <!-- Week 8 Follow-Up -->
+                    <div class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl p-6 text-[#F4F4F4] shadow-lg">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center gap-3">
+                                <div class="text-4xl">✨</div>
+                                <div>
+                                    <h3 class="text-xl font-bold text-[#FFC000]">Week 8: Sustained Success</h3>
+                                    <p class="text-xs italic">Follow-Up Check-In</p>
+                                </div>
+                            </div>
+                            <div class="bg-[#FFC000] text-[#000066] rounded-full px-3 py-1 text-xs font-bold">30 MIN</div>
+                        </div>
+                        <div class="space-y-3 text-sm">
+                            <p class="font-bold">What Happens:</p>
+                            <ul class="space-y-1 text-xs">
+                                <li>• Sustained adoption check</li>
+                                <li>• ROI leakage analysis</li>
+                                <li>• Success story documentation</li>
+                                <li>• Scaling discussion</li>
+                            </ul>
+                            <p class="font-bold mt-3">Output:</p>
+                            <ul class="space-y-1 text-xs">
+                                <li>• Published success story (4 formats)</li>
+                                <li>• Scaling roadmap (if successful)</li>
+                                <li>• Long-term sustainability plan</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Success & Scaling -->
+                    <div class="bg-gradient-to-br from-[#FFC000] to-[#CC9900] rounded-xl p-6 text-[#000066] shadow-lg">
+                        <div class="flex items-center gap-3 mb-4">
+                            <div class="text-4xl">🚀</div>
+                            <div>
+                                <h3 class="text-xl font-bold text-[#6600FF]">Success & Scaling</h3>
+                                <p class="text-xs italic">Organizational Impact</p>
+                            </div>
+                        </div>
+                        <div class="space-y-3 text-sm">
+                            <p class="font-bold">ROI Tracking:</p>
+                            <ul class="space-y-1 text-xs">
+                                <li>• Pre-deployment projection (Week 1)</li>                              
+                                <li>• Post-deployment measurement (Week 4/8)</li>
+                                <li>• ROI leakage identification</li>
+                                <li>• Recovery recommendations</li>
+                            </ul>
+                            <p class="font-bold mt-3">Scaling Path:</p>
+                            <ul class="space-y-1 text-xs">
+                                <li>• 10 people → 100 → 339 BUs → Global</li>
+                                 <li>• <strong>POC-first approach:</strong> Validate workflow logic before agent investment</li>
+    				<li>• <strong>Progressive build:</strong> Assistant → Agent → Agentic AI (de-risked at each stage)</li>
+    				<li>• <strong>Stakeholder buy-in:</strong> Early adoption proves business case for advanced development</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CALL TO ACTION -->
+            <section class="bg-gradient-to-br from-[#6600FF] to-[#4400AA] rounded-xl shadow-2xl p-8 md:p-12 text-center text-[#F4F4F4] mt-16">
+                <h2 class="text-3xl md:text-4xl font-black mb-6">Ready to Start Your AI Journey? 🚀</h2>
+                <p class="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+                    Transform your challenge into a working solution in just 4 weeks. Expert guidance, proven frameworks, and a dedicated team supporting you every step of the way.
+                </p>
+                <div class="flex flex-col md:flex-row gap-6 justify-center items-center">
+                    <a href="https://jules.bureauveritas.com/assistant/01KC831081FWW5KYKK1PGYQBXD" target="_blank" class="bg-[#FFC000] text-[#000066] px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#33CC33] hover:text-[#F4F4F4] transition-all duration-300 transform hover:scale-105 shadow-lg no-underline">
+                        🎯 Start Your Request
+                    </a>
+                    <div class="bg-[#F4F4F4] text-[#000066] px-8 py-4 rounded-lg font-bold text-lg">
+                        Questions? We're here to help! 💪
+                    </div>
+                </div>
+                <p class="mt-8 text-sm text-[#F4F4F4] opacity-80">
+                    Total Time Investment: 4 hours over 4 weeks | Target Success Rate: 90%+
+                </p>
+            </section>
+
+        </main>
+    </div>
+
+    <footer class="text-center py-8 text-[#F4F4F4] mt-16">
+        <p class="text-sm">&copy; 2026 Bureau Veritas NAM - AI Ambassador Pod Program. All rights reserved.</p>
+        <p class="text-sm mt-2">Created Jan 5, 2026 | Edited: Feb 3, 2026 by Brenda Li & Jules in Richmond, BC, Canada 🇨🇦</p>
+    </footer>
+
+    <button id="scrollToTopBtn" class="scroll-to-top">Top ↑</button>
+
+    <script>
+        // Scroll to top button functionality
+        const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 300) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        });
+
+        scrollToTopBtn.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
